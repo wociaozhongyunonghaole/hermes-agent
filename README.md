@@ -1,13 +1,13 @@
 > # 📌 Fork with local patches — 含本地修改的 fork
 >
 > 本仓库 fork 自 [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)，
-> 并在  之外保留了两处**尚未提交给上游**的本地修复，分别解决：
+> 并在 `main` 之外保留了两处**尚未提交给上游**的本地修复，分别解决：
 >
-> 1. **折叠网关分组时，遗留会话收不起来**（）
-> 2. **机器人花名册拖拽被全局 dnd 后端劫持**（）
+> 1. **折叠网关分组时，遗留会话收不起来** —— 分支 `fix/sidebar-connectionless-gateway-rows`
+> 2. **机器人花名册拖拽被全局 dnd 后端劫持** —— 分支 `fix/roster-drag-global-dnd`
 >
-> **给 AI / 维护者**：完整说明（症状、根因、改法、边界、与上游设计的关系）见
-> **[MY_PATCHES.md](./MY_PATCHES.md)**。**请先读它**，再动本仓库代码。
+> **给 AI / 维护者**：完整说明（症状、根因、改法、边界、与上游设计的关系）
+> 见 **[MY_PATCHES.md](./MY_PATCHES.md)**。**请先读它**，再动本仓库的代码。
 >
 > ---
 
